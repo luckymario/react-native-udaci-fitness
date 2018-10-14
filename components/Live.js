@@ -12,7 +12,7 @@ export default class Live extends Component {
 		const { status, coord, direction } = this.state
 
 		if (status === null) {
-			return <ActivityIndicator style={{martinTop: 30}} />
+			return <ActivityIndicator style={{marginTop: 30}} />
 		}
 
 		if (status === 'denied') {
